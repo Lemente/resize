@@ -12,3 +12,4 @@ how to improve it:
 - set size in .conf
 - set size for all players
 - make compatible with sneak mod
+- add command /getsize <player>
