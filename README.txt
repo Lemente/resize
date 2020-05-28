@@ -1,9 +1,9 @@
-Minetest mod prototype: resize
+Minetest mod: resize
 Warning: This is a prototype. It isn't ready for gameplay yet. Might not work as expected.
 
 allows to resize a specific player ingame using the command: /resize <player> <size>
 
-how to improve it:
+__how to improve it:__
 - make fall damages proportionnal to size
 - make interact distance proportionnal to size
 - make size 1.8 behave like default size (need to find the right numbers)
@@ -13,3 +13,7 @@ how to improve it:
 - set size for all players
 - make compatible with sneak mod
 - add command /getsize <player>
+- keep size after restart/rejoin
+
+__engine limitations:__
+- pointing offset (wrong node being pointed at). Probably fixed : https://github.com/minetest/minetest/pull/9730
