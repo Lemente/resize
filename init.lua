@@ -6,7 +6,7 @@ minetest.register_privilege("resize", "player can use /resize command")
 minetest.register_chatcommand("resize", {
 	params = "<player> <size>",
 	description = "change size of specified <player>",
-	privs = {size=true},
+	privs = {resize=true},
   func = function(name, params)
 		local player, realsize = unpack(params:split(" "))
 
