@@ -16,4 +16,5 @@ how to improve it:
 - keep size after restart/rejoin
 
 engine limitations:
-- pointing offset (wrong node being pointed at). Probably fixed : https://github.com/minetest/minetest/pull/9730
+- pointing offset (wrong node being pointed at). Probably fixed: https://github.com/minetest/minetest/pull/9730
+- 3rd person camera offset range too limited
