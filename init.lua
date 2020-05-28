@@ -1,4 +1,4 @@
-minetest.register_privilege("resize", "player can use /size command")
+minetest.register_privilege("resize", "player can use /resize command")
 
 
 
